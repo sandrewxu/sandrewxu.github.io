@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-remote_theme: "mmistakes/minimal-mistakes@4.25.1"
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 minimal_mistakes_skin: "dark"
 minimal_mistakes_skin2: "default"
 
@@ -44,6 +44,7 @@ search: true
 
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
   
 
 locale: "en-US"
