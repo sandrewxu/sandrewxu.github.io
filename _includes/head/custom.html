@@ -17,4 +17,84 @@
 <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+<script>
+  function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+    const isDarkMode = document.body.classList.contains('dark-mode');
+    localStorage.setItem('darkMode', isDarkMode);
+  }
+
+  // Check for saved dark mode preference
+  document.addEventListener('DOMContentLoaded', () => {
+    const savedDarkMode = localStorage.getItem('darkMode') === 'true';
+    if (savedDarkMode) {
+      document.body.classList.add('dark-mode');
+    }
+  });
+</script>
+
+<style>
+  body {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  body.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+  body.dark-mode a {
+    color: #4da6ff;
+  }
+  body.dark-mode .masthead {
+    background-color: #2d2d2d;
+  }
+  body.dark-mode .greedy-nav {
+    background-color: #2d2d2d;
+  }
+  body.dark-mode .page__content p,
+  body.dark-mode .page__content li {
+    color: #e6e6e6;
+  }
+  .dark-mode-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 10px;
+    color: inherit;
+    font-size: 1.2em;
+  }
+  .dark-mode .dark-mode-toggle {
+    color: #ffffff;
+  }
+  
+  /* Fix navigation alignment */
+  .greedy-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .greedy-nav .visible-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-grow: 1;
+  }
+  .greedy-nav .site-title {
+    margin-right: 1rem;
+    font-weight: bold;
+  }
+  .masthead__menu-item {
+    margin: 0 0.5rem;
+  }
+  .masthead__menu-item a {
+    font-weight: normal;
+  }
+  .greedy-nav a {
+    font-weight: normal;
+  }
+  .greedy-nav .site-title {
+    font-weight: bold !important;
+  }
+</style>
+
 <!-- end custom head snippets -->
