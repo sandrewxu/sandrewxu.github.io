@@ -9,7 +9,7 @@ redirect_from:
 
 I am a second-year undergraduate at Yale pursuing a B.S./M.S. in Computer Science and B.S. in Mathematics on the Intensive Track. I am broadly interested in machine learning and its applications to society. I have taken advanced coursework in machine learning, programming, and mathematics and am always open to interesting opportunities.
 
-A copy of my resume is available [here](files/Andrew_Xu_Resume_02072025.pdf).
+A copy of my resume is available [here](files/Andrew_Xu_Resume_02102025.pdf).
 
 ### Research
 
