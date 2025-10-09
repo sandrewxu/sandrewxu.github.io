@@ -3,7 +3,15 @@ name: Deploy Hugo site to Pages
 on:
   push:
     branches: ["main"]
+    paths-ignore:
+      - "**.md"
+      - "LICENSE"
   workflow_dispatch:
+    inputs:
+      hugoVersion:
+        description: "Hugo Version"
+        required: false
+        default: "0.139.0"
 
 permissions:
   contents: read
@@ -14,25 +22,31 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
+defaults:
+  run:
+    shell: bash
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: ${{ github.event.inputs.hugoVersion || '0.139.0' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: true
+          submodules: recursive
           fetch-depth: 0
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: "latest"
+          hugo-version: ${{ env.HUGO_VERSION }}
           extended: true
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v4
-      - name: Build
-        run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        uses: actions/configure-pages@v5
+      - name: Build with Hugo
+        run: hugo --minify --gc --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
