@@ -1,0 +1,56 @@
+baseURL: "https://sandrewxu.github.io/"
+languageCode: "en-us"
+title: "Andrew Xu"
+theme: "PaperMod"
+
+pagination:
+  pagerSize: 10
+
+enableRobotsTXT: true
+
+params:
+  defaultTheme: "auto"
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  description: "CS + Math @ Yale"
+  author: "Andrew Xu"
+  
+  homeInfoParams:
+    Title: "Andrew Xu"
+    Content: "Hi! I'm a junior at Yale University studying Computer Science and Mathematics. 
+    My goal is to build safe, intelligent, and useful frontier AI systems. 
+    Currently, I am interested in interpretability and diffusion models."
+    AlignSocialIconsTo: "left"
+    imageUrl: "/avatar.jpg"
+    imageTitle: "Andrew Xu"
+    imageWidth: 120
+    imageHeight: 120
+
+  socialIcons:
+  - name: "Github"
+    url: "http://github.com/sandrewxu"
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/sandrewxu/"
+  - name: "CV"
+    url: "/resume.pdf"
+  - name: "Email"
+    url: "mailto:sandrewxu@gmail.com"
+
+menu:
+  main:
+    - name: "Blog"
+      url: "/posts/"
+      weight: 30
+    - name: "Publications"
+      url: "/publications/"
+      weight: 40
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+
+minify:
+  disableHTML: false

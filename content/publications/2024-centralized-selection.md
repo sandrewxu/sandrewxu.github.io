@@ -1,0 +1,28 @@
+---
+title: "Centralized Selection with Preferences in the Presence of Biases"
+date: 2024-07-26
+draft: false
+description: "ICML 2024"
+tags: ["algorithms"]
+---
+### Authors
+L. Elisa Celis, Amit Kumar, Nisheeth K. Vishnoi, **Andrew Xu**
+
+### Links
+[arXiv](https://arxiv.org/abs/2409.04897) / [code](https://github.com/sandrewxu/CentralizedSelectionwithPreferenceBias) / [slides](https://icml.cc/media/icml-2024/Slides/34807.pdf)
+
+### Abstract
+This paper considers the scenario in which there are multiple institutions, each with a limited capacity for candidates, and candidates, each with preferences over the institutions. A central entity evaluates the utility of each candidate to the institutions, and the goal is to select candidates for each institution in a way that maximizes utility while also considering the candidates' preferences. The paper focuses on the setting in which candidates are divided into multiple groups and the observed utilities of candidates in some groups are biased--systematically lower than their true utilities. The first result is that, in these biased settings, prior algorithms can lead to selections with sub-optimal true utility and significant discrepancies in the fraction of candidates from each group that get their preferred choices. Subsequently, an algorithm is presented along with proof that it produces selections that achieve near-optimal group fairness with respect to preferences while also nearly maximizing the true utility under distributional assumptions. Further, extensive empirical validation of these results in real-world and synthetic settings, in which the distributional assumptions may not hold, are presented.
+
+### Citation
+```bibtex
+@misc{celis2024centralizedselectionpreferencespresence,
+      title={Centralized Selection with Preferences in the Presence of Biases}, 
+      author={L. Elisa Celis and Amit Kumar and Nisheeth K. Vishnoi and Andrew Xu},
+      year={2024},
+      eprint={2409.04897},
+      archivePrefix={arXiv},
+      primaryClass={cs.DS},
+      url={https://arxiv.org/abs/2409.04897}, 
+}
+```

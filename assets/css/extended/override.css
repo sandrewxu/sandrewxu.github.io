@@ -1,0 +1,24 @@
+:root { --radius: 14px; }
+.main { max-width: 900px; }
+.post-title, .page-title { letter-spacing: -0.02em; }
+.post-entry, .card { border-radius: var(--radius); }
+a { text-underline-offset: 3px; }
+
+/* Fix social icons alignment */
+.social-icons {
+    display: flex;
+    gap: 12px;
+}
+
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.social-icons a svg {
+    display: block;
+    height: 30px;
+    width: 30px;
+}
