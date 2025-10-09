@@ -3,7 +3,8 @@ title: "Centralized Selection with Preferences in the Presence of Biases"
 date: 2024-07-26
 draft: false
 description: "ICML 2024"
-tags: ["algorithms"]
+tags: ["paper", "algorithms"]
+categories: ["papers"]
 ---
 ### Authors
 L. Elisa Celis, Amit Kumar, Nisheeth K. Vishnoi, **Andrew Xu**

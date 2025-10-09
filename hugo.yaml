@@ -11,7 +11,6 @@ enableRobotsTXT: true
 params:
   defaultTheme: "auto"
   ShowReadingTime: true
-  ShowPostNavLinks: true
   ShowCodeCopyButtons: true
   description: "CS + Math @ Yale"
   author: "Andrew Xu"
