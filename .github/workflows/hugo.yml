@@ -11,7 +11,7 @@ on:
       hugoVersion:
         description: "Hugo Version"
         required: false
-        default: "0.139.0"
+        default: "0.151.0"
 
 permissions:
   contents: read
@@ -30,7 +30,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: ${{ github.event.inputs.hugoVersion || '0.139.0' }}
+      HUGO_VERSION: ${{ github.event.inputs.hugoVersion || '0.151.0' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
