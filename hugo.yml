@@ -18,9 +18,20 @@ params:
   
   homeInfoParams:
     Title: "Andrew Xu"
-    Content: "Hi! I'm a junior at Yale University studying Computer Science and Mathematics. 
-    My goal is to build safe, intelligent, and useful frontier AI systems. 
-    Currently, I am interested in interpretability and diffusion models."
+    Content: |
+      Hey there! I'm Andrew, a junior at Yale University studying Computer Science and Mathematics.
+      My main academic interest is the systems, algorithms, and ethics of AI.
+      
+      As of March 2026, I am researching diffusion language models with Arman Cohan of the Yale NLP lab and Neil Band of the Stanford NLP lab.
+      I am also working on benchmarking and productionizing cutting-edge RL frameworks for LLM post-training.
+      This summer, I will be joining Jane Street as a Quantitative Trading intern in their New York office.
+      In the age of AI, hope to advance frontier systems and make sure that these systems remain safe and our world remains human-centric.
+      
+      Outside of academics, you can find me singing with my a cappella group, [Doox of Yale](https://dooxofyale.com/) and the Yale Glee Club. 
+      I also love to learn about stories through any medium, whether it be writing, film, art, or song.
+      
+      Feel free to reach out to me at [first].[last]@yale.edu if you're interested in talking about AI (technically, socially, or ethically), or if you would like to share your favorite novel, essay, movie, or song.
+
     AlignSocialIconsTo: "left"
     imageUrl: "/avatar.jpg"
     imageTitle: "Andrew Xu"
