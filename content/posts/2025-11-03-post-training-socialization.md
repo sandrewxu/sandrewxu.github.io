@@ -2,7 +2,7 @@
 title: "Large Language Model Post-Training as a Form of Socialization"
 date: 2025-11-03
 draft: false
-description: "A paper I wrote for PHIL 2340: AI Epistemology and Ethics"
+description: "A version of this essay was a class paper for PHIL 2340: AI Epistemology and Ethics"
 tags: ["philosophy", "post-training"]
 categories: ["blog"]
 ShowToc: true
