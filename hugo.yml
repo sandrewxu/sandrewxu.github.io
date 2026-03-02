@@ -19,18 +19,19 @@ params:
   homeInfoParams:
     Title: "Andrew Xu"
     Content: |
-      Hey there! I'm Andrew, a junior at Yale University studying Computer Science and Mathematics.
-      My main academic interest is the systems, algorithms, and ethics of AI.
-      
-      As of March 2026, I am researching diffusion language models with Arman Cohan of the Yale NLP lab and Neil Band of the Stanford NLP lab.
-      I am also working on benchmarking and productionizing cutting-edge RL frameworks for LLM post-training.
-      This summer, I will be joining Jane Street as a Quantitative Trading intern in their New York office.
-      In the age of AI, hope to advance frontier systems and make sure that these systems remain safe and our world remains human-centric.
-      
-      Outside of academics, you can find me singing with my a cappella group, [Doox of Yale](https://dooxofyale.com/) and the Yale Glee Club. 
-      I also love to learn about stories through any medium, whether it be writing, film, art, or song.
-      
-      Feel free to reach out to me at [first].[last]@yale.edu if you're interested in talking about AI (technically, socially, or ethically), or if you would like to share your favorite novel, essay, movie, or song.
+      Hi, I'm Andrew, a junior at Yale studying Computer Science and Mathematics.
+      I'm interested in how language models reason -- and whether we can do better than the autoregressive paradigm that dominates today.
+
+      Currently, I'm investigating coarse-to-fine summarization as a mechanism for improving reasoning in diffusion language models, working with Arman Cohan (Yale NLP) and Neil Band (Stanford NLP).
+      I'm also integrating SDPO, a new RL framework for LLM post-training, with veRL and scaling it for multi-node training — along with exploring extensions to the algorithm itself.
+      Previously, I [published work](https://arxiv.org/abs/2409.04897) at ICML 2024 on algorithmic fairness: specifically, designing selection algorithms that achieve near-optimal utility while correcting for systematic bias against underrepresented groups in multi-institutional matching settings.
+      This summer, I'll be at Jane Street as a Quantitative Trading intern.
+
+      Outside of research, I sing with [Doox of Yale](https://dooxofyale.com/) and the Yale Glee Club, and I've recently started to read more novels.
+      I think a lot about stories -- across writing, film, and music -- and what they reveal about humanity.
+
+      I'd love to talk about advancing the frontiers of language modeling, AI infrastructure, and the ethics of how we build and deploy AI systems.
+      And if you have a novel or film that changed how you see something, I want to hear about it -- reach out to me using the email button.
 
     AlignSocialIconsTo: "left"
     imageUrl: "/avatar.jpg"

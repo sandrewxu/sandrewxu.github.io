@@ -22,3 +22,8 @@ a { text-underline-offset: 3px; }
     height: 30px;
     width: 30px;
 }
+
+/* Spacing between bio paragraphs */
+.home-info .entry-content p + p {
+    margin-top: 1em;
+}
