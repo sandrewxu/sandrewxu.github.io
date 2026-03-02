@@ -1,11 +1,8 @@
 ---
 title: "Responsibility And The Adoption Of Safe Artificial Intelligence Systems"
-date: 2025-11-03
+date: 2025-12-17
 draft: false
-description: |
-    A version of this essay was a class paper for PHIL 2340: AI Epistemology and Ethics.
-
-    NOTE: Although my paper examines the gap in responsibility should an AI be used in autonomous systems, including Lethal Autonomous Weapons Systems (LAWS), I am personally against the use of AI in any military context.
+description: A version of this essay was a class paper for PHIL 2340: AI Epistemology and Ethics. Although my paper examines the gap in responsibility should an AI be used in autonomous systems, including Lethal Autonomous Weapons Systems (LAWS), I am personally against the use of AI in any military context.
 tags: ["philosophy", "ai-ethics"]
 categories: ["blog"]
 ShowToc: true
